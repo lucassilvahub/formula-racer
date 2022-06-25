@@ -24,6 +24,10 @@
 * Font-awesome
 * Unpkg
 
+## Visualizar
+
+Visualize o projeto rodando: 
+
 ## Contribuindo
 
 Você pode enviar quantos PR's quiser, terei prazer em analisá-los e aceitá-los! E se você tiver alguma dúvida sobre o projeto...
