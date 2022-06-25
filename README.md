@@ -26,7 +26,7 @@
 
 ## Visualizar
 
-Visualize o projeto rodando: 
+Visualize o projeto rodando: https://lucasreb.github.io/formula-racer/
 
 ## Contribuindo
 
