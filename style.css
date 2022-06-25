@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+}
+
+.area {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #58606a;
+}
+
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fc4455;
+  text-decoration: none;
+}
+
+.logo > a > img {
+  width: 150px;
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+nav {
+  list-style: none;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav ul li a {
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 7px 13px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #fc4455;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+button:hover {
+  background-color: #ff0019;
+  color: white;
+  box-shadow: 0 0 8px #fc4455;
+}
+
+nav ul li a.nav_item:hover {
+  background: #fc4455;
+  transition: 0.3s;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #fc4455;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fc4455;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.footer {
+  background-color: #fc4455;
+  width: 100%;
+  padding: 10px 5px;
+  margin-top: 430px;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: white;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 1;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul a {
+  color: white;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+  background: white;
+  transition: 0.3s;
+  color: #fc4455;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+#myCanvas {
+  position: absolute;
+  border: 3px solid #c72b3b;
+  width: 500px;
+  background-image: url(/img/play.png);
+  height: 800px;
+  transform: translate(-50%, -50%);
+  top: 64.5%;
+  left: 50%;
+  margin-top: 45px;
+}
+
+.capa {
+  margin-top: 50px;
+}
+
+.conteudo-capa h1 {
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+.conteudo-capa p {
+  color: #383434;
+  font-size: 16px;
+}
+
+.area-capa .botao-jogar {
+  text-align: left;
+  margin-left: 202px;
+  margin-top: 20px;
+}
+
+.area-capa .botao-jogar a {
+  color: white;
+}
+
+.conteudo-capa p {
+  text-align: left;
+  margin-left: 205px;
+  margin-top: 20px;
+}
+
+.conteudo-capa img {
+  float: right;
+  margin-right: 150px;
+  margin-left: 190px;
+  width: 900px;
+  margin-top: 50px;
+}
+
+.conteudo-capa {
+  display: flex;
+  align-items: center;
+}
+
+.sobre {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sobre h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.sobre p {
+  color: #383434;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.infos {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infos h2 {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+}
+
+.infos p {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.info {
+  flex-basis: 32%;
+  background-color: white;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  border: solid 2px #fc4455;
+}
+
+.info:hover {
+  box-shadow: 0 0 10px 0px #fc4455;
+}
+
+.sec-titulo {
+  font-size: 48px;
+  margin-top: 500px;
+  margin-bottom: 20px;
+}
+
+.conteudo2 {
+  position: relative;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo2 .img2 {
+  position: relative;
+  width: 900px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.conteudo2 .img2 img {
+  z-index: 110;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 900;
+  height: 100%;
+  object-fit: fill;
+}
+
+.conteudo2 .text2 {
+  z-index: 222;
+  background-color: rgba(255, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(139, 0, 0, 0.1);
+  border-radius: 10px;
+  transform: translate(0px, 8px);
+  margin-left: 20px;
+}
+
+.conteudo2 .text2 h4 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #000000;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.conteudo2 .text2 p {
+  text-align: left;
+  color: black;
+  text-align: justify;
+}
+
+.terceira-parte {
+  margin-top: 320px;
+}
+
+.info2-title {
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+
+.info2 {
+  width: 700px;
+  margin-left: 50px;
+}
+
+.info2 p {
+  text-align: left;
+  color: black;
+}
+
+.conteudo2 .img3 {
+  position: relative;
+  width: 1062px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.conteudo2 .img3 img {
+  z-index: 110;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#comandos {
+  text-align: center;
+  font-size: 17px;
+  display: block;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+#comandos a {
+  text-align: center;
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  color: #fc4455;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}

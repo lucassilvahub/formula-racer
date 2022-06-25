@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMULA RACER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/1350ca114f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <nav>
+      <header>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="logo Formula Racer"
+          /></a>
+        </div>
+        <ul>
+          <li><a href="index.html" class="nav_item">Home</a></li>
+          <li><a href="game.html" class="nav_item">Game</a></li>
+          <li><a href="team.html" class="nav_item">Devs</a></li>
+        </ul>
+        <a href="game.html"><button>Jogar Agora</button></a>
+      </header>
+    </nav>
+
+    <!-- Banner inicial -->
+    <div class="capa">
+      <div class="area-capa">
+        <div class="conteudo-capa">
+          <div class="texto-capas">
+            <h1>
+              Bem vindo ao <br />
+              Formula <span style="color: #fc4455">Racer</span>!
+            </h1>
+            <p>
+              A modalidade de automobilismo mais popular do mundo agora em um
+              game 100% online!
+            </p>
+            <button class="botao-jogar">
+              <a href="game.html"><span>Jogar Agora</span></a>
+            </button>
+          </div>
+          <img src="img/piloto.png" alt="formula img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sobre o jogo -->
+
+    <section class="segunda-parte">
+      <div class="area">
+        <h3 class="sec-titulo">
+          Sobre o <span style="color: #fc4455">Game</span>
+        </h3>
+        <div class="conteudo2">
+          <div class="img2">
+            <img src="img/pista1.png" alt="piloto imagem" />
+          </div>
+          <div class="text2">
+            <h4 class="text2-title">Ação e Diversão!</h4>
+            <p>
+              O perigo é eminente nesta disputa eletrizante! No Formula Racer
+              seu objetivo é se manter na pista desviando e ultrapassando os
+              pilotos rivais. Formula Racer é 100% grátis, então divirta-se o
+              máximo que puder! Formula Racer exige apenas de um navegador para
+              ser jogado, então só é preciso escolher o seu browser preferido e
+              começar a se divertir!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre o desenvolvimento do jogo -->
+
+    <section class="terceira-parte">
+      <div class="area">
+        <h3 class="sec-titulo">Desenvolvimento</h3>
+        <div class="conteudo2">
+          <div class="img3">
+            <img src="img/pista.png" alt="logos imagem" />
+          </div>
+          <div class="info2">
+            <h4 class="info2-title">
+              Objetivo: <span style="color: #fc4455">Passatempo</span>
+            </h4>
+            <p>
+              O Formula Racer surgiu para dar ânimo para aqueles momentos de
+              tédio, com uma jogabilidade simples e intuitiva você pode correr e
+              se divertir de forma gratuita e online!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <ul class="list_footer" style="margin-top: 5px">
+          <li><a href="index.html" class="nav_item">Home</a></li>
+          <li><a href="game.html" class="nav_item">Game</a></li>
+          <li><a href="team.html" class="nav_item">Devs</a></li>
+        </ul>
+        <p class="copyright">Desenvolvedores FEI @ 2022</p>
+      </div>
+    </footer>
+
+    <script>
+      //script utilizado para animar html
+
+      ScrollReveal({
+        reset: false,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+
+      ScrollReveal().reveal(".area-capa", {
+        delay: 500,
+        origin: "bottom",
+      });
+      ScrollReveal().reveal(".sec-titulo", { delay: 500, origin: "left" });
+      ScrollReveal().reveal(".segunda-parte .img2", {
+        delay: 500,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".text2", { delay: 500, origin: "left" });
+      ScrollReveal().reveal(".info2", {
+        delay: 500,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".terceira-parte .img3", {
+        delay: 500,
+        origin: "left",
+      });
+    </script>
+  </body>
+</html>
