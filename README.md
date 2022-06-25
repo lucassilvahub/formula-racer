@@ -23,3 +23,17 @@
 * Javascript
 * Font-awesome
 * Unpkg
+
+## Contribuindo
+
+Você pode enviar quantos PR's quiser, terei prazer em analisá-los e aceitá-los! E se você tiver alguma dúvida sobre o projeto...
+
+Me mande um e-mail: lucasreboucas100@gmail.com
+
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/lucas-reboucas-silva/)
+
+Obrigado!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
