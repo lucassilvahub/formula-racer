@@ -16,5 +16,13 @@
   </a>
 </p>
 
-
 # Tecnologias Utilizadas
+<table>
+  <tr>
+    <td>Te</td>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>Javascript</td>
+    <td>Font-awesome</td>
+  </tr>
+</table>
