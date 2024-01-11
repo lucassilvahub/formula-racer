@@ -6,7 +6,7 @@
     Formula Racer
 </h2>
 
-> Status: Finalizado ✅
+> Status: Finalizado 
 
 <p>Formula Racer é um jogo desenvolvido em HTML e Javascript, sua proposta é utilizar o elemento <canvas> para possibilitar rodar um jogo de forma 100% online. O projeto foi desenvolvido durante o desafio de Desenvolvimento Web do 1° Ciclo de Ciência da Computação FEI.</p>
 
