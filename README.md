@@ -26,17 +26,17 @@
 
 ## Visualizar
 
-Visualize o projeto rodando: https://lucasreb.github.io/formula-racer/
+View the project running: https://lucasreb.github.io/formula-racer/
 
-## Contribuindo
+## Contributing
 
-Você pode enviar quantos PR's quiser, terei prazer em analisá-los e aceitá-los! E se você tiver alguma dúvida sobre o projeto...
+Feel free to send as many PRs as you'd like, I'll be happy to review and accept them! And if you have any questions about the project...
 
-Me mande um e-mail: lucasreboucas100@gmail.com
+Send me an email: lucasreboucas100@gmail.com
 
-Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/lucas-reboucas-silva/)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/lucas-reboucas-silva/)
 
-Obrigado!
+Thanks!
 
 ## License
 
