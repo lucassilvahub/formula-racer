@@ -8,7 +8,8 @@
 
 > Status: Finalizado ✅
 
-<p>Formula Racer é um jogo desenvolvido em HTML e Javascript, sua proposta é utilizar o elemento <canvas> para possibilitar rodar um jogo de forma 100% online. O projeto foi desenvolvido durante o desafio de Desenvolvimento Web do 1° Ciclo de Ciência da Computação FEI.</p>
+<p>"Formula Racer" is a game developed in HTML and JavaScript. Its proposal is to utilize the <canvas> element to enable running a game entirely online. The project was developed during the Web Development challenge of the 1st Computer Science Cycle at FEI.
+</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -16,7 +17,7 @@
   </a>
 </p>
 
-## Tecnologias Utilizadas
+## The technologies used are:
 
 * HTML5
 * CSS3
